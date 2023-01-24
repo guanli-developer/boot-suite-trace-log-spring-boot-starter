@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>tech.guanli.boot.suite</groupId>
+		<artifactId>springboot-starter-parent</artifactId>
+		<version>1.0.1-RELEASE</version>
+	</parent>
+	<artifactId>trace-log-spring-boot-starter</artifactId>
+	<version>1.0.0-RELEASE</version>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+	</dependencies>
+	<scm>
+		<url>https://github.com/guanli-developer/boot-suite-trace-log-spring-boot-starter</url>
+		<connection>https://github.com/guanli-developer/boot-suite-trace-log-spring-boot-starter.git</connection>
+		<developerConnection>https://github.com/guanli-developer/boot-suite-trace-log-spring-boot-starter</developerConnection>
+	</scm>
+	<developers>
+		<developer>
+			<name>Li.Guan</name>
+			<email>guanli_developer@aliyun.com</email>
+		</developer>
+	</developers>
+</project>
