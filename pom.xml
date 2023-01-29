@@ -6,7 +6,6 @@
 		<version>1.0.1-RELEASE</version>
 	</parent>
 	<artifactId>trace-log-spring-boot-starter</artifactId>
-	<version>1.0.0-RELEASE</version>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
